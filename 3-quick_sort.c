@@ -50,7 +50,13 @@ size_t lomuto_partition(int *array, size_t size, int low, int high)
 }
 
 /**
- * quick_sort_recursive - recursive quicksort helper
+ * quick_sort_recursive - recursive quicksort function
+ * @array: array to sort
+ * @size: size of the array
+ * @low: starting index
+ * @high: ending index
+ *
+ * Description: Recursively sorts partitions using Lomuto scheme.
  */
 void quick_sort_recursive(int *array, size_t size, int low, int high)
 {
